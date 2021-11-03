@@ -22,7 +22,7 @@ public class RegisterTest {
 
         Register register = new Register(clients);
 
-        assertEquals(List.of("kwame", "yaw"), register.getNamesOfGoldClients());
+        assertEquals(List.of("kwame", "john"), register.getNamesOfGoldClients());
     }
 
     @Test

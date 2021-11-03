@@ -16,14 +16,14 @@ public class Register {
     public List<String> getNamesOfGoldClients() {
         return clients.stream()
                 .filter(s -> s.getServiceLevel() == ServiceLevel.GOLD)
-                .map(Client::getName)
+                .map(Client::getClientName)
                 .collect(Collectors.toList());
     }
 
     public Optional<String> getClientNameById(String id) {
         return clients.stream()
                 .filter(s -> s.getId().equals(id))
-                .map(Client::getName)
+                .map(Client::getClientName)
                 .findFirst();
     }
 
