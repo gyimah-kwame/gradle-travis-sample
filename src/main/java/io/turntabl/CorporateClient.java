@@ -13,4 +13,8 @@ public class CorporateClient  extends Client{
     public String getClientName() {
         return accountManager.getName();
     }
+
+    public AccountManager getAccountManager() {
+        return accountManager;
+    }
 }
