@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class CorporateClientTest extends TestCase {
+public class CorporateClientTest {
 
     @Test
     public void testGetClientName() {
