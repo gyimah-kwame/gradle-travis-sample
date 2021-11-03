@@ -39,6 +39,7 @@ public class NumbersTest {
     @Test
     public void testGreaterThanAThousand() {
         boolean result = Numbers.isGreaterThanZeroAndLessThanAThousand(1001);
+        System.out.println('aa');
         assertFalse(result);
     }
 }
